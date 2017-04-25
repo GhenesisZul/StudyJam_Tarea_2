@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CalculadoraMagica</string>
+    <string name="operaciones">Operaciones Basicas</string>
+    <string name="suma">Sumar</string>
+    <string name="resta">Restar</string>
+    <string name="multiplicacion">Multiplicacion</string>
+    <string name="division">Division</string>
+</resources>

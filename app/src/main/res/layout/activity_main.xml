@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.7"
+        android:background="#000" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="@string/operaciones"
+                android:textColor="@color/bl"
+                android:textSize="36sp" />
+
+            <EditText
+                android:id="@+id/num1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#d9480a"
+                android:hint="numero 1"
+                android:inputType="number"
+                android:textColor="@color/bl"
+                android:textColorHint="@color/bl"
+                />
+
+            <EditText
+                android:id="@+id/num2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#d9480a"
+                android:hint="numero 2"
+                android:inputType="number"
+                android:textColor="@color/bl"
+                android:textColorHint="@color/bl"
+
+                />
+
+            <TextView
+                android:id="@+id/resul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="00"
+                android:textColor="@color/bl"
+                android:textSize="120sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/sumar"
+                    android:layout_width="170dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/boton"
+                    android:text="@string/suma"
+                    android:textColor="@color/bl"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/restar"
+                    android:layout_width="170dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/boton"
+                    android:text="@string/resta"
+                    android:textColor="@color/bl"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/multi"
+                    android:layout_width="170dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/boton"
+                    android:text="@string/multiplicacion"
+                    android:textColor="@color/bl"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/div"
+                    android:layout_width="170dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/boton"
+                    android:text="@string/division"
+                    android:textColor="@color/bl"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
